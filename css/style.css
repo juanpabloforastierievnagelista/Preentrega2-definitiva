@@ -1,0 +1,129 @@
+
+/* Reset ***********************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* *************************************** */
+.logo {
+  width: 12vw;
+}
+
+.iconos {
+  width: 36px;
+  height: 30px;
+}
+
+.tamaño {
+  height: 70px;
+}
+/* background ************************************** */
+/* body{
+  background-image: linear-gradient(to right top, #f1c40f, #a2d349, #50d689, #00d0bf, #00c5de, #3dc4eb, #63c2f4, #84bff7, #b0ccfa, #d1dbfb, #ebecfd, #ffffff);
+  
+  background-repeat: no-repeat;
+} */
+/* ************************************************ */
+body{
+  background-image: url(../image/disfruta.webp);
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* hover menu ******************************/
+.efecto{
+  transition: 1.3s;
+}
+.efecto :hover{
+   transform:scale(1.5,1.5) ;
+   background:#f1c40f ;
+   border-radius: 7px;
+   margin: 0px, 5px, 0px, 5px;
+}
+/* ************************************** */
+main {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: center;
+}
+/* Carrusel*************************************** */
+.carrusel{
+  height: 75vh;
+}
+/* ************************************************ */
+
+
+/* Tarjetas flip *************************************************** */
+.card {
+  width: 300px;
+  height: 350px;
+  position: relative;
+}
+.card .face {
+  /*MIXIN*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card .front {
+  transform: perspective(600px) rotatey(180deg);
+  box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.card .front h2 {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  line-height: 45px;
+  color: #f3f3f3;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.card .back {
+  transform: perspective(600) rotatey(0deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+.card .back .link a {
+  color: #f3f3f3;
+}
+.card .back h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.card .back p {
+  letter-spacing: 1px;
+}
+
+.card:hover .front {
+  transform: perspective(600px) rotatey(360deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotatey(180deg);
+}
+/*# sourceMappingURL=style.css.map */
