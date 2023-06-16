@@ -33,6 +33,19 @@ body{
   background-color:#83777d
 }
 
+.Ramones{
+  margin-left: 40%;
+  }
+
+  .noticiasramoneras{
+    margin-left: 40%;
+
+  }
+
+
+
+
+
 .videoramones{
   background-color: #83777d;
 }
@@ -41,16 +54,15 @@ article {
   padding: 2vh;
 
 }
-.galeria { transform:scale(1.5,1.5) ;
-  background:#da0789 ;
+.galeria { 
+  transform:scale(1.5,1.5) ;
   border-radius: 7px;
   margin: 0px, 5px, 0px, 5px;
   width: 100%;
 }
 .historia{ 
     margin: 20vh;
-    transform:scale(1.5,1.5) ;
-    background:#da0789 ;
+    transform:scale(1.5,1.5);
     border-radius: 7px;
     margin: 0px, 5px, 0px, 5px;
     width: 100%;
@@ -79,7 +91,8 @@ main {
 /* ************************************************ */
 
 
-.footer{ align-items: center;
+footer{
+ margin-left: 40%;
 
 }
 
