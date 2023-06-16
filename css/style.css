@@ -41,8 +41,19 @@ article {
   padding: 2vh;
 
 }
-.historia{ margin: 20vh;
-
+.galeria { transform:scale(1.5,1.5) ;
+  background:#da0789 ;
+  border-radius: 7px;
+  margin: 0px, 5px, 0px, 5px;
+  width: 100%;
+}
+.historia{ 
+    margin: 20vh;
+    transform:scale(1.5,1.5) ;
+    background:#da0789 ;
+    border-radius: 7px;
+    margin: 0px, 5px, 0px, 5px;
+    width: 100%;
 }
 /* hover menu ******************************/
 .efecto{
