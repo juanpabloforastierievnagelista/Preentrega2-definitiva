@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  /* *************************************** */
+  .logo {
+    width: 12vw;
+  }
+  
+  .iconos {
+    width: 36px;
+    height: 30px;
+  }
+  
+  .tamaño {
+    height: 70px;
+  }
+  /* background ************************************** */
+  /* body{
+    background-image: linear-gradient(to right top, #f1c40f, #a2d349, #50d689, #00d0bf, #00c5de, #3dc4eb, #63c2f4, #84bff7, #b0ccfa, #d1dbfb, #ebecfd, #ffffff);
+    
+    background-repeat: no-repeat;
+  } */
+  /* ************************************************ */
+  body{
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:hsl(330, 20%, 90%)
+  }
+  
+  .intro{
+    margin: 2vh;
+    padding: 2vh;
+    font-style: italic;
+    }
+  
+    
+  
+    .Ramones{
+      margin-left: 65vh;
+      color: #da0789;
+    }
+  
+  .div{
+      margin-left: 65vh;
+      color: #da0789;
+  
+    }
+  
+  
+  
+  
+  
+  .h3{
+    margin-left: 65vh;
+    color: #da0789;
+  }
+  
+  
+  .videoramones{
+    background-color:hsl(330, 20%, 90%)
+    
+  }
+  article {
+    margin: 2vh;
+    padding: 2vh;
+  
+  }
+  .galeria { 
+    transform:scale(1.5,1.5) ;
+    border-radius: 7px;
+    margin: 0px, 5px, 0px, 5px;
+    width: 100%;
+  }
+  .historia{ 
+      margin: 20vh;
+      transform:scale(1.5,1.5);
+      border-radius: 7px;
+      margin: 0px, 5px, 0px, 5px;
+      width: 100%;
+      font-style: italic;
+  }
+  /* hover menu ******************************/
+  .efecto{
+    transition: 1.3s;
+  }
+  .efecto :hover{
+     transform:scale(1.5,1.5) ;
+     background:#da0789 ;
+     border-radius: 7px;
+     margin: 0px, 5px, 0px, 5px;
+  }
+  /* ************************************** */
+  main {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    justify-content: center;
+  }
+  /* Carrusel*************************************** */
+  .carrusel{
+    height: 75vh;
+  }
+  /* ************************************************ */
+  
+  
+  footer{
+   margin-left: 40%;
+   color:fuchsia;
+  }
