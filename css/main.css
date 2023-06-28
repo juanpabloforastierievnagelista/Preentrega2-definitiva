@@ -19,13 +19,15 @@
 .tamaño {
   height: 70px;
 }
+.head {
+  background-color:grey ;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
 
-/* background ************************************** */
-/* body{
-  background-image: linear-gradient(to right top, #f1c40f, #a2d349, #50d689, #00d0bf, #00c5de, #3dc4eb, #63c2f4, #84bff7, #b0ccfa, #d1dbfb, #ebecfd, #ffffff);
 
-  background-repeat: no-repeat;
-} */
+
+
 /* ************************************************ */
 body {
   /* background-repeat: no-repeat; */
