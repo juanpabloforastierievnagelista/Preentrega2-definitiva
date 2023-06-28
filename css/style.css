@@ -8,19 +8,6 @@
 }
 /* *************************************** */
 
-.head {
-  background-color:grey ;
-  font-size: medium;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-
-
-
-
-
 .carousel-inner{
   margin: 2vh;
   padding: 2vh;
@@ -35,6 +22,13 @@
 .tamaño {
   height: 70px;
 }
+.carrusel {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+
+
 
 body{
 
@@ -52,7 +46,7 @@ body{
   
 
   .Ramones{
-    margin-left: 65vh;
+    margin-left: 2vh;
     color: #da0789;
   }
 

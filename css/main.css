@@ -7,9 +7,6 @@
 }
 
 /* *************************************** */
-.logo {
-  width: 12vw;
-}
 
 .iconos {
   width: 36px;
@@ -25,7 +22,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-
+.carrusel {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
 
 
 /* ************************************************ */
@@ -43,7 +43,7 @@ body {
 }
 
 .Ramones {
-  margin-left: 65vh;
+  margin-left: 2vh;
   color: #da0789;
 }
 
