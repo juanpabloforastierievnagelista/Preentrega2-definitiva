@@ -27,17 +27,54 @@ body{
   font-style: italic;
   }
 
+  .texto{
+      margin: 2vh;
+      padding: 2vh;
+      font-style: italic;
+   
+  }
+  .noticias{ 
+      margin: 2vh;
+      padding: 2vh;
+      font-style: italic;
+
+  }
+
   .Ramones{
     margin-left: 2vh;
     color: #da0789;
     
   }
+h1{
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
 
+}
 
-.h3{
-  margin-left: 65vh;
+.titulohistoria{ margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+  color: #da0789;
+
+}
+
+h3{
+  margin-left: 2vh;
   color: #da0789;
 }
+
+h2{
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+  color: #da0789;
+
+}
+
+
+
+
 .listgroup{
   color:#da0789;
   background-color: aliceblue
