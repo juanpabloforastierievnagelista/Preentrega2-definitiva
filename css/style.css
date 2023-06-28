@@ -8,35 +8,17 @@
 }
 /* *************************************** */
 
-
-
 .carousel-inner{
   margin: 2vh;
   padding: 2vh;
   align-self: auto;
 }
 
-.iconos {
-  width: 36px;
-  height: 30px;
-}
-
-.tamaño {
-  height: 70px;
-}
-.carrusel {
-  margin-left: 2vh;
-  margin-right: 2vh;
-}
-
-
-
-
 body{
 
   background-attachment: fixed;
   background-size: cover;
-  background-color:hsl(330, 20%, 90%)
+  background-color: aliceblue
 }
 
 .intro{
@@ -45,25 +27,11 @@ body{
   font-style: italic;
   }
 
-  
-
   .Ramones{
     margin-left: 2vh;
     color: #da0789;
+    
   }
-
-.div{
-    margin-left: 65vh;
-    color: #da0789;
-
-  }
-
-
-.sitiosamigos{
-  color: #da0789;
-  background-color: aliceblue;
-  font-style: italic;
-}
 
 
 .h3{
@@ -72,11 +40,11 @@ body{
 }
 .listgroup{
   color:#da0789;
-  background-color: aliceblue;
+  background-color: aliceblue
 }
 
 .videoramones{
-  background-color:hsl(330, 20%, 90%)
+  background-color: aliceblue
   
 }
 article {
@@ -98,10 +66,6 @@ article {
     width: 100%;
     font-style: italic;
 }
-/* hover menu ******************************/
-.efecto{
-  transition: 1.3s;
-}
 
 /* ************************************** */
 main {
@@ -110,16 +74,12 @@ main {
   min-height: 80vh;
   justify-content: center;
 }
-/* Carrusel*************************************** */
-.carrusel{
-  height: 75vh;
-}
-/* ************************************************ */
 
+/* ************************************************ */
 
 footer{
   margin-left: 40%;
-  color:fuchsia;
+  color:#da0789;
   font-style: italic;
 }
 
