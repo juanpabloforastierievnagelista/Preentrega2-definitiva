@@ -1,106 +1,17 @@
-.carousel-inner {
-  margin: 2vh;
-  padding: 2vh;
-  align-self: auto;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 4 | @import "_ galeria.scss";
+ *   |         ^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\main.scss 4:9  root stylesheet */
 
-body {
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: aliceblue;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import \"_ galeria.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 4:9  root stylesheet";
 }
-
-.intro {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-.texto {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-.noticias {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-.Ramones {
-  margin-left: 2vh;
-  color: hwb(323 3% 15%);
-}
-
-h1 {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-.titulohistoria {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-  color: #da0789;
-}
-
-h3 {
-  margin-left: 2vh;
-  color: #da0789;
-}
-
-h2 {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-  color: #da0789;
-}
-
-.listgroup {
-  color: #da0789;
-  background-color: aliceblue;
-}
-
-.videoramones {
-  background-color: aliceblue;
-}
-
-article {
-  margin: 2vh;
-  padding: 2vh;
-}
-
-.galeria {
-  transform: scale(1.5, 1.5);
-  border-radius: 7px;
-  margin: 0px, 5px, 0px, 5px;
-  width: 100%;
-}
-
-.historia {
-  margin: 20vh;
-  transform: scale(1.5, 1.5);
-  border-radius: 7px;
-  margin: 0px, 5px, 0px, 5px;
-  width: 100%;
-  font-style: italic;
-}
-
-/* ************************************** */
-main {
-  display: flex;
-  align-items: center;
-  min-height: 80vh;
-  justify-content: center;
-}
-
-/* ************************************************ */
-footer {
-  margin-left: 40%;
-  color: #da0789;
-  font-style: italic;
-}
-
-/*# sourceMappingURL=main.css.map */

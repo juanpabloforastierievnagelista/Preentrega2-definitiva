@@ -77,32 +77,23 @@ h2{
 
 .listgroup{
   color:#da0789;
-  background-color: aliceblue
+  background-color: rgb(16, 74, 124)
 }
 
 .videoramones{
   background-color: aliceblue
   
 }
-article {
-  margin: 2vh;
-  padding: 2vh;
 
-}
+
+
 .galeria { 
   transform:scale(1.5,1.5) ;
   border-radius: 7px;
   margin: 0px, 5px, 0px, 5px;
   width: 100%;
 }
-.historia{ 
-    margin: 20vh;
-    transform:scale(1.5,1.5);
-    border-radius: 7px;
-    margin: 0px, 5px, 0px, 5px;
-    width: 100%;
-    font-style: italic;
-}
+
 
 /* ************************************** */
 main {
