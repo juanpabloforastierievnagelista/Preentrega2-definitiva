@@ -1,39 +1,13 @@
-@charset "UTF-8";
-* {
-  margin: 0;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.carousel-inner {
+  margin: 2vh;
+  padding: 2vh;
+  align-self: auto;
 }
 
-/* *************************************** */
-
-.iconos {
-  width: 36px;
-  height: 30px;
-}
-
-.tamaño {
-  height: 70px;
-}
-.head {
-  background-color:grey ;
-  font-size: medium;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.carrusel {
-  margin-left: 2vh;
-  margin-right: 2vh;
-}
-
-
-/* ************************************************ */
 body {
-  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   background-size: cover;
-  background-color: hsl(330, 20%, 90%);
+  background-color: aliceblue;
 }
 
 .intro {
@@ -42,23 +16,55 @@ body {
   font-style: italic;
 }
 
+.texto {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+}
+
+.noticias {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+}
+
 .Ramones {
+  margin-left: 2vh;
+  color: hwb(323 3% 15%);
+}
+
+h1 {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+}
+
+.titulohistoria {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+  color: #da0789;
+}
+
+h3 {
   margin-left: 2vh;
   color: #da0789;
 }
 
-.div {
-  margin-left: 65vh;
+h2 {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
   color: #da0789;
 }
 
-.h3 {
-  margin-left: 65vh;
+.listgroup {
   color: #da0789;
+  background-color: aliceblue;
 }
 
 .videoramones {
-  background-color: hsl(330, 20%, 90%);
+  background-color: aliceblue;
 }
 
 article {
@@ -82,18 +88,6 @@ article {
   font-style: italic;
 }
 
-/* hover menu ******************************/
-.efecto {
-  transition: 1.3s;
-}
-
-.efecto :hover {
-  transform: scale(1.5, 1.5);
-  background: #da0789;
-  border-radius: 7px;
-  margin: 0px, 5px, 0px, 5px;
-}
-
 /* ************************************** */
 main {
   display: flex;
@@ -102,19 +96,11 @@ main {
   justify-content: center;
 }
 
-/* Carrusel*************************************** */
-.carrusel {
-  height: 75vh;
-}
-
 /* ************************************************ */
 footer {
   margin-left: 40%;
-  color:#da0789;;
+  color: #da0789;
+  font-style: italic;
 }
-
-
-
-
 
 /*# sourceMappingURL=main.css.map */

@@ -1,11 +1,119 @@
-*{
-    margin: 0;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+$color: hwb(323 3% 15%);
+
+
+
+
+.carousel-inner{
+  margin: 2vh;
+  padding: 2vh;
+  align-self: auto;
+}
+
+body{
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: aliceblue
+}
+
+.intro{
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
   }
-  /* *************************************** */
- 
-  $colortext:#da0789
+
+  .texto{
+      margin: 2vh;
+      padding: 2vh;
+      font-style: italic;
+   
+  }
+  .noticias{ 
+      margin: 2vh;
+      padding: 2vh;
+      font-style: italic;
+
+  }
+
+  .Ramones{
+    margin-left: 2vh;
+    color: #da0789;
+    
+  }
+h1{
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+
+}
+
+.titulohistoria{ margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+  color: #da0789;
+
+}
+
+h3{
+  margin-left: 2vh;
+  color: #da0789;
+}
+
+h2{
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+  color: #da0789;
+
+}
+
+
+
+
+.listgroup{
+  color:#da0789;
+  background-color: aliceblue
+}
+
+.videoramones{
+  background-color: aliceblue
   
-  $bkcolor
+}
+article {
+  margin: 2vh;
+  padding: 2vh;
+
+}
+.galeria { 
+  transform:scale(1.5,1.5) ;
+  border-radius: 7px;
+  margin: 0px, 5px, 0px, 5px;
+  width: 100%;
+}
+.historia{ 
+    margin: 20vh;
+    transform:scale(1.5,1.5);
+    border-radius: 7px;
+    margin: 0px, 5px, 0px, 5px;
+    width: 100%;
+    font-style: italic;
+}
+
+/* ************************************** */
+main {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: center;
+}
+
+/* ************************************************ */
+
+footer{
+  margin-left: 40%;
+  color:#da0789;
+  font-style: italic;
+}
+      
+
+    
