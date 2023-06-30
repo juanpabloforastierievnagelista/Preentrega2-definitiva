@@ -1,69 +1,18 @@
-nav li {
-  margin: auto;
-  padding: auto;
-  font-size: larger;
-}
+/* Error: expected ":".
+ *    ,
+ * 14 |     $background-color
+ *    |                      ^
+ *    '
+ *   scss\_galeria.scss 14:22  @import
+ *   scss\main.scss 5:9        root stylesheet */
 
-/* Reset ***********************************/
-* {
-  margin: 0;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ":".\a    \2577 \a 14 \2502      $background-color\d\a    \2502                       ^\a    \2575 \a   scss\\_galeria.scss 14:22  @import\a   scss\\main.scss 5:9        root stylesheet';
 }
-
-/* *************************************** */
-main {
-  display: flex;
-  align-items: center;
-  min-height: 80vh;
-  justify-content: center;
-}
-
-body {
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: aliceblue;
-}
-
-h1 {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-h3 {
-  margin-left: 2vh;
-  color: #da0789;
-}
-
-h2 {
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-}
-
-.carousel-inner {
-  margin: 2vh;
-  padding: 2vh;
-  align-self: auto;
-}
-
-.galeria {
-  transform: scale(1.5, 1.5);
-  border-radius: 7px;
-  margin: 0px, 5px, 0px, 5px;
-  width: 100%;
-}
-
-.videoramones {
-  background-color: aliceblue;
-}
-
-footer {
-  margin-left: 40%;
-  color: #da0789;
-  font-style: italic;
-}
-
-/*# sourceMappingURL=main.css.map */
