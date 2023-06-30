@@ -1,17 +1,54 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 4 | @import "_ galeria.scss";
- *   |         ^^^^^^^^^^^^^^^^
- *   '
- *   scss\main.scss 4:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import \"_ galeria.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 4:9  root stylesheet";
+main {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: center;
 }
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+}
+
+h3 {
+  margin-left: 2vh;
+  color: #da0789;
+}
+
+h2 {
+  margin: 2vh;
+  padding: 2vh;
+  font-style: italic;
+}
+
+.carousel-inner {
+  margin: 2vh;
+  padding: 2vh;
+  align-self: auto;
+}
+
+.galeria {
+  transform: scale(1.5, 1.5);
+  border-radius: 7px;
+  margin: 0px, 5px, 0px, 5px;
+  width: 100%;
+}
+
+.videoramones {
+  background-color: aliceblue;
+}
+
+footer {
+  margin-left: 40%;
+  color: #da0789;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */
