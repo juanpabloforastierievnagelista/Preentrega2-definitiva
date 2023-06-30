@@ -1,42 +1,42 @@
 .intro{
-    margin: 2vh;
-    padding: 2vh;
-    font-style: italic;
+    margin: $margin;
+    padding:$padding;
+    font-style: $fontstyle;
     }
 
 
 h1{
- margin: 2vh;
-padding: 2vh;
-font-style: italic;
+ margin: $margin;
+padding: $padding;
+font-style:$fontstyle;
       }
       
  h3{
-   margin-left: 2vh;
-  color: #da0789;
+   margin-left: $margin;
+   color:$color;
       }
       
 h2{
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-  color: #da0789;
+  margin: $margin;
+  padding:$padding;
+  font-style:$fontstyle;
+  color:$color;
       
       }
 
 .texto {
-    margin: 2vh;
-    padding: 2vh;
-    font-style: italic;
+    margin:  $margin;
+    padding: $padding;
+    font-style:$fontstyle;
   }
 article {
-        margin: 2vh;
-        padding: 2vh;
+        margin:  $margin;
+        padding: $padding;
     }
 .noticias{ 
-        margin: 2vh;
-        padding: 2vh;
-        font-style: italic;
+        margin: $margin;
+        padding: $padding;
+        font-style: $fontstyle;
   
     }
 .historia{ 
@@ -45,20 +45,21 @@ article {
   border-radius: 7px;
   margin: 0px, 5px, 0px, 5px;
   width: 100%;
-  font-style: italic;
+  font-style:$fontstyle;
    
     }  
 
-.titulohistoria{ margin: 2vh;
-  padding: 2vh;
-  font-style: italic;
-  color: #da0789;
+.titulohistoria{ 
+  margin:  $margin;
+  padding: $padding;
+  font-style:$fontstyle;
+  color:$color;
     }
       
 .Ramones{
- margin-left: 2vh;
- color: #da0789;
-        
+ margin-left: $margin;
+ color:$color;
+ font-style:$fontstyle;
       }
 
 

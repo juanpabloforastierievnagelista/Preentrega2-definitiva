@@ -18,20 +18,21 @@ body{
 
     background-attachment: fixed;
     background-size: cover;
-    background-color: aliceblue
+   background-color:$background-color ; 
   }
 h1{
-    margin: 2vh;
-   padding: 2vh;
-   font-style: italic;
+  margin: $margin;
+  padding: $padding;
+  font-style:$fontstyle;
          }
 h3{
-margin-left: 2vh;
-color: #da0789;
+margin-left: $margin;
+color:$color
          }
 h2{ 
-  margin: 2vh;
-  padding: 2vh;
-  font-style: italic;}
+  margin: $margin;
+  padding: $padding;
+  font-style: $padding;
+}
 
   
