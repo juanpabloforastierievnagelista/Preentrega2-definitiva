@@ -54,6 +54,7 @@ h1{
   margin: 2vh;
   padding: 2vh;
   font-style: italic;
+  color: #da0789;
 
 }
 
@@ -90,7 +91,11 @@ h2{
   
 }
 
+.sitiosamigos{
+  margin-left: 2vh;
+  color: #da0789;
 
+}
 
 
 .galeria { 
@@ -124,7 +129,7 @@ main {
 /* ************************************************ */
 
 footer{
-  margin-left: 10%;
+  margin-left: 20%;
   color:#da0789;
   font-style: italic;
 }
