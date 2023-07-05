@@ -16,8 +16,14 @@
 
 .wikipediaramonera{
   margin: 2vh;
+  color: #da0789;
 }
-
+.nav-link{
+  background-color: #da0789;
+  color: aliceblue;
+  margin: 2vh;
+  padding: 1vh;
+}
 
 body{
 
