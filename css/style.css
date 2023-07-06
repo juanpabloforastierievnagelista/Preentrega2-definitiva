@@ -112,9 +112,10 @@ h2{
 }
 
 .logo{
-  height: 25%;
-  width: 50%;
-  margin-left: 15vh;
+  max-width: 50%; 
+  height:auto;
+  float: left;
+  margin-left: 2vh;
 }
 
 .texto{ 
