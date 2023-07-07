@@ -15,19 +15,18 @@ main {
   }
 
 body{
-
     background-attachment: fixed;
     background-size: cover;
-   background-color:$background-color ; 
+    background-color:$background-color ; 
   }
 h1{
-  margin: $margin;
-  padding: $padding;
-  font-style:$fontstyle;
+    margin: $margin;
+    padding: $padding;
+    font-style:$fontstyle;
          }
 h3{
-margin-left: $margin;
-color:$color
+  margin-left: $margin;
+  color:$color
          }
 h2{ 
   margin: $margin;
