@@ -112,9 +112,8 @@ h2{
 }
 
 .logo{
-  max-width: 50%; 
-  height:auto;
-  float: left;
+ 
+  width: 40%;
   margin-left: 2vh;
 }
 
