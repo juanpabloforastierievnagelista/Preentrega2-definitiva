@@ -135,9 +135,18 @@ main {
 /* ************************************************ */
 
 footer{
-  margin-left: 20%;
+  margin-left: 2vh;
   color:#da0789;
   font-style: italic;
+
+}
+.menu{
+  margin-left: 2vh;
+  color:#da0789;
+  font-style: italic
+
 }
 
+
+ 
 
