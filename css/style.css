@@ -70,15 +70,26 @@ h1{
   padding: 2vh;
   font-style: italic;
   color: #da0789;
-
+  
 }
 
-.titulohistoria{ margin: 2vh;
+.titulohistoria{ 
+  margin: 2vh;
   padding: 2vh;
   font-style: italic;
   color: #da0789;
 
 }
+
+.texto2{
+  text-align: end;
+
+}
+
+.texto4{
+  text-align: end;
+}
+
 
 h3{
   margin-left: 2vh;
