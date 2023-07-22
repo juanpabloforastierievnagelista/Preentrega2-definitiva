@@ -28,6 +28,7 @@
 .titulo{
   color:#da0789;
   background-color:aliceblue;
+  font-size: xx-large;
 
 }
 
@@ -35,7 +36,7 @@ body{
 
   background-attachment: fixed;
   background-size: cover;
-  background-color: aliceblue
+  background-color:#dd9ecc
 }
 
 .intro{
@@ -62,6 +63,8 @@ body{
   .Ramones{
     margin-left: 2vh;
     color: #da0789;
+    padding-top: 2vh;
+
     
   }
 
