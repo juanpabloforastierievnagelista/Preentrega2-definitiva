@@ -9,9 +9,9 @@
 /* *************************************** */
 
 .carousel-inner{
-  margin: 2vh;
+ margin-right: 10vh;
   padding: 2vh;
-  align-self: auto;
+  
 }
 
 .wikipediaramonera{
@@ -74,21 +74,18 @@ h1{
 }
 
 .titulohistoria{ 
-  margin: 2vh;
+  text-align: center;
   padding: 2vh;
   font-style: italic;
   color: #da0789;
 
 }
 
-.texto2{
-  text-align: end;
-
+p{
+  font-size: small;
 }
 
-.texto4{
-  text-align: end;
-}
+
 
 
 h3{
@@ -101,7 +98,7 @@ h2{
   padding: 2vh;
   font-style: italic;
   color: #da0789;
-
+  
 }
 
 
@@ -122,6 +119,10 @@ h2{
   color: #da0789;
 
 }
+.miembros{
+  text-align: center;
+  color: #da0789;
+}
 
 
 .galeria { 
@@ -133,14 +134,16 @@ h2{
 
 .logo{
  
-  width: 40%;
-  margin-left: 2vh;
+  width: 30%;
+  margin-left: 8vh;
+  align-items: center;
 }
 
-.texto{ 
-  margin-left: 2vh;
-  margin-right: 2vh;
-
+.container-fluid{
+  margin-left: 4vh;
+  margin-right: 15vh;
+  padding: 8vh;
+  background-color: aliceblue;
 
 }
 
