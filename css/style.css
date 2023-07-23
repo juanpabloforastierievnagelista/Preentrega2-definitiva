@@ -44,12 +44,14 @@ body{
   padding: 2vh;
   font-style: italic;
   float: left;
- }
+  
+   }
 
   .texto{
       margin: 2vh;
       padding: 2vh;
       font-style: italic;
+      background-color: aliceblue;
 
    
   }
