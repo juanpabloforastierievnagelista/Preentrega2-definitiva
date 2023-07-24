@@ -38,8 +38,7 @@ body{
   background-size: cover;
   background-color:#dd9ecc;
   
-  margin-right: 10vh;
-  padding: 8vh;
+ 
 }
 
 .intro{
@@ -66,7 +65,7 @@ body{
   }
 
   .Ramones{
-    margin-left: 2vh;
+    margin-left:1vh;
     color: #da0789;
     padding-top: 2vh;
 
@@ -102,7 +101,7 @@ h3{
 }
 
 h2{
-  margin-left: 20vh;
+  margin-left: 15vh;
   padding: 2vh;
   font-style: italic;
   color: #da0789;
