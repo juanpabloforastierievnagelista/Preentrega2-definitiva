@@ -9,7 +9,7 @@
 /* *************************************** */
 
 .carousel-inner{
- margin-right: 10vh;
+ margin-right: 8vh;
   padding: 2vh;
   
 }
@@ -36,7 +36,10 @@ body{
 
   background-attachment: fixed;
   background-size: cover;
-  background-color:#dd9ecc
+  background-color:#dd9ecc;
+  
+  margin-right: 10vh;
+  padding: 8vh;
 }
 
 .intro{
@@ -173,8 +176,10 @@ footer{
   color:#da0789;
   font-style: italic
 
+
 }
+header{ 
+  margin-left: 4vh;
 
-
- 
+}
 
