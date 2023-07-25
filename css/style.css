@@ -9,8 +9,10 @@
 /* *************************************** */
 
 .carousel-inner{
- margin-right: 8vh;
+ align-content: center;
   padding: 2vh;
+  margin: 2vh;
+
   
 }
 
@@ -142,8 +144,9 @@ h2{
 .logo{
  
   width: 30%;
-  margin-left: 8vh;
-  align-items: center;
+  margin-left: 10vh;
+  
+
 }
 
 .container-fluid{
@@ -168,6 +171,7 @@ footer{
   margin-left: 2vh;
   color:#da0789;
   font-style: italic;
+  padding: 2vh;
 
 }
 .menu{
